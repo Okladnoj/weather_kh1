@@ -54,7 +54,6 @@ class WeatherContainer extends StatelessWidget {
                   scale: 1 / 1.5,
                 )
               ]),
-              // Text(' ', textScaleFactor: 6),
               Column(children: <Widget>[
                 Text(
                   'Описание погоды:\n${weather.description}',
